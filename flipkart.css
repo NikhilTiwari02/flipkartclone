@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    position: sticky;
+    top: 0;
+    height: max-content;
+}
+.navbar
+{
+    display: flex;
+    background-color: rgb(15, 85, 236);
+    height: 10vh;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.logo
+{ display: flex;
+    align-items: center;
+    
+}
+.logo2
+{
+    width: 7vw;
+    height:4vh;
+    margin: 0 1vw 0 5vw;
+}
+.searchbox
+{
+    display: flex;
+    align-items: center;
+}
+.input
+{
+    height: 28px;
+    width :30vw;
+    margin :0px 180px 0px 10px;
+    border:3px solid white;
+    padding:0px 0px 0px 12px;
+    font-size: 16px;
+    
+}
+.btn
+{
+    display: flex;
+    align-items: center;
+}
+button:hover{
+    color: rgba(0, 132, 255, 0.671);
+    font-size: 18px;
+}
+.butt
+{
+    padding: 6px 40px;
+    background-color: white;
+    color: blue;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.select
+{
+    display: flex;
+    align-items:center;
+}
+#more
+{
+   width:6vw;
+   background-color: rgb(15, 85, 236);
+font-size: 16px;
+font-family: sans-serif;
+border: none;
+color: white;
+cursor: pointer;
+margin: 0px 60px;
+}
+select :hover{
+    color: rgba(0, 132, 255, 0.671);
+    font-size: 18px;
+
+}
+#cartlogo
+{
+    width: 30px;
+    height: 25px;
+}
+.cart
+{
+    display: flex;
+    align-items: center;
+}
+.textcart
+{
+    color:white;
+    font-size: 22px;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+.main
+{
+   
+    background-color:rgba(255, 255, 255, 0.959);
+    margin: 10px;
+    }
+.image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainpic
+{
+    width:80vw;
+    margin:0px auto;
+    height: 80vh;
+}
+.container
+{display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+.card1
+{
+    margin:20px ;
+}
+.item
+{   display: flex;
+    justify-content: center;
+}
+.foot
+{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    
+}
+@media only screen and (max-width: 1000px){
+    .navbar
+    {  justify-content: space-between;
+        flex-direction: column;
+        height: max-content;
+    
+    }
+    .logo,.btn,.select,.cart,.searchbox {
+        display: flex;
+        justify-content: center;
+        margin:0px 0px 10px 0px ;
+    }
+    .logo2{
+        margin:10px 0px 0px 0px;
+        width: 20vw;
+        height: 6vh;
+    }
+    .butt
+    {
+        font-size: 3vw;
+        
+    }
+    .input{
+       width: 80vw;
+       font-size: 3vw;
+       margin-right: 0px;
+    }
+    #more
+    {  
+       min-width: 60px;
+       width: 10vw;
+        font-size: 3vw;
+    }
+
+}
