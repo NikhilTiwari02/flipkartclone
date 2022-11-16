@@ -141,6 +141,9 @@ select :hover{
     color: rgb(255, 255, 255);
     
 }
+::-webkit-scrollbar{
+    display: none;
+}
 @media only screen and (max-width: 1000px){
     .navbar
     {  justify-content: space-between;
